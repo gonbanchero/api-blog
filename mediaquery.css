@@ -1,0 +1,44 @@
+@media screen and (max-width: 1250px) {
+  .posts-container {
+    max-width: 90vw;
+    margin: 40px 0px;
+  }
+
+  .post {
+    min-width: 30%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .posts-container {
+    flex-direction: column;
+  }
+
+  .post {
+    width: 40vw;
+    margin-top: 10px;
+    min-height: 250px;
+  }
+
+  .filter-container {
+    width: 50vw;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .posts-container {
+    flex-direction: column;
+  }
+
+  .post {
+    width: 70vw;
+    margin-top: 10px;
+    min-height: 250px;
+  }
+
+  .filter-container {
+    width: 70vw;
+    margin-top: 30px;
+  }
+}
